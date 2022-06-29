@@ -1,0 +1,82 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #ffdd90;
+    background-image: url("/images/Summer.jpg");
+}
+
+:root{
+    --color-pera:#8fe9a5;
+}
+
+.bg-dark{
+    background-color: #ffffff !important;
+}
+h1,h2{
+    font-family: 'Givonic',sans-serif;
+    font-weight: 700;
+}
+
+.navbar{
+    min-height: 4rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 2);
+    
+}
+.btn{
+    font-size: givonic-bold;
+    font-size:16px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    min-width: 160px;
+    
+    
+}
+.btn-light {
+    background-color: #00eb89;
+    color:#ffffff !important;
+    font-family: 'Givonic';
+    font-size: 16px;
+    border: 1px solid #51e977 !important;
+
+}
+p.fuente_1{
+    font-family: 'Givonic';
+    color:rgb(76, 0, 255);
+    font-size: 16px;
+
+}
+.nav-link{
+    font-family: 'Givonic';
+    color:rgb(76, 0, 255);
+    font-size: 16px;
+
+}
+.py-6{
+    padding: 5rem 0;
+}
+.btn-primary{
+    background-color: #00eb89;
+    color:#ffffff !important;
+    font-family: 'Givonic';
+    font-size: 16px;
+    border: 1px solid #51e977 !important;
+
+}
+.btn-secondary{
+    background-color: #73837e;
+    color:#ffffff !important;
+    font-family: 'Givonic';
+    font-size: 16px;
+    border: 1px solid #73837e !important;
+
+}
+.col{
+    padding: 1rem;
+    background-color: red;
+    border: 2px solid yellow;
+    color: #ffffff;
+}
