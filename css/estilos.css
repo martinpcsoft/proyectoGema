@@ -4,17 +4,17 @@
     padding: 0;
 
 }
-body{
-    background-color: #ffdd90;
-    background-image: url("/images/Summer.jpg");
-}
 
 :root{
     --color-pera:#8fe9a5;
 }
 
+
 .bg-dark{
+
+
     background-color: #ffffff !important;
+    background-image: url("../images/bg-verde.png");
 }
 h1,h2{
     font-family: 'Givonic',sans-serif;
@@ -22,10 +22,16 @@ h1,h2{
 }
 
 .navbar{
+
     min-height: 4rem;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 2);
-    
+    /*box-shadow: 0 0 5px rgba(0, 0, 0, 2);*/
+    background-image: url("../images/bg-verde.png");
 }
+
+.hero{
+    margin-top: 30px;
+}
+
 .btn{
     font-size: givonic-bold;
     font-size:16px;
@@ -36,11 +42,13 @@ h1,h2{
     
 }
 .btn-light {
-    background-color: #00eb89;
+    background-color: #40c15d;
+
+    transition: all .3s;
     color:#ffffff !important;
     font-family: 'Givonic';
     font-size: 16px;
-    border: 1px solid #51e977 !important;
+    border: 1px solid #40c15d !important;
 
 }
 p.fuente_1{
@@ -59,7 +67,8 @@ p.fuente_1{
     padding: 5rem 0;
 }
 .btn-primary{
-    background-color: #00eb89;
+    /*background-color: #40c15d;*/
+   background: linear-gradient(180deg, #40c15d 0%, #306485 100%);
     color:#ffffff !important;
     font-family: 'Givonic';
     font-size: 16px;
@@ -67,16 +76,13 @@ p.fuente_1{
 
 }
 .btn-secondary{
-    background-color: #73837e;
-    color:#ffffff !important;
+    background: linear-gradient(180deg, #ffffff 0%, #cff0d7 100%);
+    /*background-color: #ffffff;*/
+    color:#40c15d !important;
     font-family: 'Givonic';
     font-size: 16px;
     border: 1px solid #73837e !important;
 
 }
-.col{
-    padding: 1rem;
-    background-color: red;
-    border: 2px solid yellow;
-    color: #ffffff;
-}
+
+
