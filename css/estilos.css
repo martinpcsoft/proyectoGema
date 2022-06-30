@@ -16,11 +16,17 @@
     background-color: #ffffff !important;
     background-image: url("../images/bg-verde.png");
 }
-h1,h2{
+/*h1,h2{
     font-family: 'Givonic',sans-serif;
-    font-weight: 700;
-}
+    font-weight: 900;
+    color: aqua;
+}*/
+.text-titulo{
 
+    font-family: 'Givonic-1',sans-serif;
+    font-weight: 600;
+    color:#40c15d;
+}
 .navbar{
 
     min-height: 4rem;
