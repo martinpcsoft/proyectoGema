@@ -74,13 +74,14 @@ p.fuente_1{
 }
 .btn-primary{
     /*background-color: #40c15d;*/
-   background: linear-gradient(180deg, #40c15d 0%, #306485 100%);
+    background: linear-gradient(180deg, #40c15d 0%, #306485 100%);
     color:#ffffff !important;
     font-family: 'Givonic';
     font-size: 16px;
     border: 1px solid #51e977 !important;
 
 }
+
 .btn-secondary{
     background: linear-gradient(180deg, #ffffff 0%, #cff0d7 100%);
     /*background-color: #ffffff;*/
