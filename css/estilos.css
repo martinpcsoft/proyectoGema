@@ -88,11 +88,7 @@ p.fuente_1{
 
 }
 
-/*.parraNos"{
-    font-family: 'Givonic';
-    color:rgb(76, 0, 255);
-    font-size: 16px;
-}*/
+
  .card-title{
     font-family: 'Givonic-1',sans-serif;
     color: #2ac74d;
@@ -115,33 +111,30 @@ p.fuente_1{
   width: 350px;
   height:350px;
   display: block;
-  /*margin-left: auto;
-  margin-right: auto;*/
+  
 }
 .nav-tabs{
     display: flex;
     flex-direction: row;
     align-items: left;
     padding: 0px 0px 0px 8px;
-    
+}
   
   /* Inside auto layout */
 
     
 
-}
+
 .nav-tabs .nav-link.active{
-    background-color: #40c15d;
-    color: #000000;
+    background-image: url("../images/bg-verde.png");
+    /*color: #000000;*/
     text-align: center;
     font-size: 12px;
-    
-
 }
 .nav-tabs .nav-link{
-    background-color: #lightgrey;
+    
     color: #000000;
-    border: 3px solid #lightblue;
+    
     margin-right: 1rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
@@ -174,14 +167,13 @@ li.Ellipse{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
      background-clip: text;
-     text-fill-color: transparent;
      text-align: left;
-* Inside auto layout */
-
-    flex: none;
+     flex: none;
     order: 0;
     flex-grow: 0;
 }
+/* Inside auto layout */
+
 
 
 .card-text{
@@ -193,29 +185,8 @@ li.Ellipse{
     font-style: normal;
     font-weight: 100;
     text-align: left;
-
-
 }
-/*.text-p{
-     /*font-family: 'Givonic-1',sans-serif;
-     color:#535353;
-     font-size: 40px;
-     font-weight: 400;
-     background-color: #ffffff;
 
-     width: 330px;
-     height: 69px;
-
-font-family: 'Givonic',sans-serif;
-font-style: normal;
-font-weight: 450;
-font-size: 14px;
-line-height: 166.5%;
-flex: none;
-order: 1;
-flex-grow: 0;
-     
-}*/
 
 .text-title-2{
     font-family: 'Givonic-1',sans-serif;
@@ -229,38 +200,36 @@ flex-grow: 0;
 .custom-2{
     width: 180px !Important;
 }
-
+/* boton rectangle-124*/
 .rectangle-124{
-padding: 0 1rem;
-margin: 1rem;
-width: auto;
-height: 150px;
-background: linear-gradient(90deg, #00AC27 0%, #00FEC4 131.82%);
-box-shadow: 0px 5px 20px rgba(20, 0, 60, 0.2);
-border-radius: 25px;
 
-
+    width:50%;
+    height:90%;
+    margin:1rem auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../images/lemon.jpg");
+    background-position: 50% 50%;
+    border-radius: 25px;
 }
 .card-title-2{
-    font-family: 'Givonic-1',sans-serif;
-    color: #ffffff;
-    padding: 10px;
-    margin: auto;
-    font-size: 30px;
-    font-weight: normal;
-    text-align: center;
+font-family: 'Givonic-1',sans-serif;
+color: #ffffff;
+padding: 10px;
+margin: auto;
+font-size: calc(1em + 1vw);
+font-weight: normal;
+text-align: center;
 
 }
 .sub-title{
-    font-family: 'Givonic-1',sans-serif;
-    color: #ffffff;
-    padding: 10px;
-    margin: 10px;
-    font-size: 20px;
-    font-weight: normal;
-    text-align: center;
-
-
+font-family: 'Givonic-1',sans-serif;
+color: #ffffff;
+padding: 10px;
+margin: 10px;
+font-size: 2vmmin;
+font-weight: normal;
+text-align: center;
 }
 .btn-secondary-2{
     background: linear-gradient(180deg, #ffffff 0%, #cff0d7 100%);
@@ -273,3 +242,4 @@ border-radius: 25px;
 
 
 }
+
