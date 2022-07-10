@@ -11,6 +11,8 @@
 }
 
 
+
+
 .bg-dark{
 
 
@@ -88,7 +90,11 @@ p.fuente_1{
 
 }
 
-
+/*.parraNos"{
+    font-family: 'Givonic';
+    color:rgb(76, 0, 255);
+    font-size: 16px;
+}*/
  .card-title{
     font-family: 'Givonic-1',sans-serif;
     color: #2ac74d;
@@ -101,40 +107,48 @@ p.fuente_1{
 .text-title{
     font-family: 'Givonic-1',sans-serif;
     color:#000000;
-    font-size: 45px;
+    font-size: 5vmin;
     font-weight: 750;
     text-align: center;
+    padding: 25px;
+    clear: both;
     
 }
 
+
+
 .img-responsive {
-  width: 350px;
+  width: 400px;
   height:350px;
   display: block;
-  
+  margin-left: auto;
+  margin-right: auto;
 }
 .nav-tabs{
     display: flex;
     flex-direction: row;
     align-items: left;
     padding: 0px 0px 0px 8px;
-}
+    
   
   /* Inside auto layout */
 
     
 
-
+}
 .nav-tabs .nav-link.active{
     background-image: url("../images/bg-verde.png");
-    /*color: #000000;*/
+    color: #000000;
     text-align: center;
+    font-family: 'Givonic-1',sans-serif;
     font-size: 12px;
+    
+
 }
 .nav-tabs .nav-link{
-    
+    background-color: #lightgrey;
     color: #000000;
-    
+    border: 3px solid #lightblue;
     margin-right: 1rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
@@ -167,13 +181,14 @@ li.Ellipse{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
      background-clip: text;
+     text-fill-color: transparent;
      text-align: left;
-     flex: none;
+* Inside auto layout */
+
+    flex: none;
     order: 0;
     flex-grow: 0;
 }
-/* Inside auto layout */
-
 
 
 .card-text{
@@ -185,61 +200,126 @@ li.Ellipse{
     font-style: normal;
     font-weight: 100;
     text-align: left;
-}
 
+
+}
 
 .text-title-2{
     font-family: 'Givonic-1',sans-serif;
     color:#000000;
-    font-size: 45px;
+    font-size: 5vmin;
     font-weight: 750;
     text-align: center;
     padding-top: 30px;
     margin: 40px;
 }
+
+
 .custom-2{
     width: 180px !Important;
 }
-/* boton rectangle-124*/
+
 .rectangle-124{
 
-    width:50%;
-    height:90%;
-    margin:1rem auto;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url("../images/lemon.jpg");
-    background-position: 50% 50%;
-    border-radius: 25px;
+            width:50%;
+            height:90%;
+            margin:1rem auto;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url("../images/lemon.jpg");
+            background-position: 50% 50%;
+            border-radius: 25px;
 }
 .card-title-2{
-font-family: 'Givonic-1',sans-serif;
-color: #ffffff;
-padding: 10px;
-margin: auto;
-font-size: calc(1em + 1vw);
-font-weight: normal;
-text-align: center;
+    font-family: 'Givonic-1',sans-serif;
+    color: #ffffff;
+    padding: 10px;
+    margin: auto;
+    font-size: calc(1em + 1vw)
+    font-weight: normal;
+    text-align: center;
+
+}
+.card-title-3{
+    font-family: 'Givonic-1',sans-serif;
+    color: #000000;
+    padding: 10px;
+    margin-top:10px;
+    margin-bottom: 20px;
+    font-size: calc(1em + 1vw);
+    font-weight: normal;
+    text-align: center;
 
 }
 .sub-title{
-font-family: 'Givonic-1',sans-serif;
-color: #ffffff;
-padding: 10px;
-margin: 10px;
-font-size: 2vmmin;
-font-weight: normal;
-text-align: center;
+    font-family: 'Givonic-1',sans-serif;
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+    font-size: 2vmmin;
+    font-weight: normal;
+    text-align: center;
 }
+
 .btn-secondary-2{
     background: linear-gradient(180deg, #ffffff 0%, #cff0d7 100%);
     color:#40c15d !important;
-    font-family: 'Givonic';
-    font-size: 16px;
+    font-family: 'Givonic-1',sans-serif;
+    font-size: 15px;
     border: 1px solid #73837e !important;
-    margin-left: auto;
-    margin-right: auto;
-
+    margin: auto auto;
+    padding: 10px;
 
 }
+.p-text{
+    font-family: 'Givonic-1',sans-serif;
+    color: #000000;
+    font-size: 3vmmin;
+    font-weight: normal;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+
+}
+/*.img-grupo{
+    
+    margin-left:auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    
+    
+
+}
+.principal{
+    
+    background: linear-gradient(90deg, #00AC27 0%, #00FEC4 131.82%);
+opacity: 0.5;
+
+}
+
+.principal:: before{
+    content: '';
+}
+*/
+.container-p {
+   height: 500px;
+    width: auto;
+    background: black;
+    overflow: hidden;
+
+
+
+
+background: linear-gradient(90deg, rgba(77,171,75,1) 0%, rgba(77,171,75,0.6166841736694677) 0%, rgba(77,171,75,1) 100%),url("../images/sujeto2.png");
+background: rgb(77,171,75),url("../images/sujeto2.png"); 
+     
+}
+    
+
+img {
+   object-fit: cover;
+}
+
+
 
