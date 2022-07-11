@@ -7,7 +7,9 @@
 
 :root{
     --color-pera:#8fe9a5;
-    --color-titulos:#40c15d;;
+    --color-titulos:#40c15d;
+    --color-tabs:rgba(247, 242, 241);
+
 }
 
 
@@ -24,12 +26,11 @@
 
     font-family: 'Givonic-1',sans-serif;
     font-weight: 600;
-    color:#40c15d;
+    color:var(--color-titulos);
 }
 .navbar{
 
     min-height: 4rem;
-    /*box-shadow: 0 0 5px rgba(0, 0, 0, 2);*/
     background-image: url("../images/bg-verde.png");
 }
 
@@ -38,7 +39,7 @@
 }
 
 .btn{
-    font-size: givonic-bold;
+    font-size: 'Givonic';
     font-size:16px;
     padding: 10px 30px;
     border-radius: 50px;
@@ -47,7 +48,7 @@
     
 }
 .btn-light {
-    background-color: #40c15d;
+    background-color: var(--color-titulos);
 
     transition: all .3s;
     color:#ffffff !important;
@@ -72,7 +73,7 @@ p.fuente_1{
     padding: 5rem 0;
 }
 .btn-primary{
-    /*background-color: #40c15d;*/
+    
     background: linear-gradient(180deg, #40c15d 0%, #306485 100%);
     color:#ffffff !important;
     font-family: 'Givonic';
@@ -83,22 +84,14 @@ p.fuente_1{
 
 .btn-secondary{
     background: linear-gradient(180deg, #ffffff 0%, #cff0d7 100%);
-    color:#40c15d !important;
+    color:var(--color-titulos) !important;
     font-family: 'Givonic';
     font-size: 16px;
     border: 1px solid #73837e !important;
-
 }
-
-/*.parraNos"{
-    font-family: 'Givonic';
-    color:rgb(76, 0, 255);
-    font-size: 16px;
-}*/
  .card-title{
     font-family: 'Givonic-1',sans-serif;
     color: #2ac74d;
-    /*color:#40c15d;*/
     font-size: 30px;
     font-weight: normal;
     text-align: left;
@@ -114,12 +107,9 @@ p.fuente_1{
     clear: both;
     
 }
-
-
-
 .img-responsive {
-  width: 400px;
-  height:350px;
+  width: 350px;
+  height:300px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -129,12 +119,10 @@ p.fuente_1{
     flex-direction: row;
     align-items: left;
     padding: 0px 0px 0px 8px;
+    border:0;
     
   
   /* Inside auto layout */
-
-    
-
 }
 .nav-tabs .nav-link.active{
     background-image: url("../images/bg-verde.png");
@@ -142,55 +130,44 @@ p.fuente_1{
     text-align: center;
     font-family: 'Givonic-1',sans-serif;
     font-size: 12px;
+    box-shadow:inset 0 0 20px #8fe9a5;
     
 
 }
 .nav-tabs .nav-link{
-    background-color: #lightgrey;
+    background-color: var(--color-tabs);
     color: #000000;
-    border: 3px solid #lightblue;
+    border: 0px;
     margin-right: 1rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     font-size: 12px;
-
-
 }
 .custom{
     width: 110px !Important;
 }
-
 li.Ellipse{
     padding: 3px;
     list-style-image:linear-gradient(90deg, #00AC27 0%, #00FEC4 131.82%); 
     border-radius: 50%;
-
-    
-    
 }
  /* Módulo de facturación */
 .modulos-font{
-
-    
-    font-family: 'Givonic-1';
+    font-family: 'Givonic-1',sans-serif;
     font-style: normal;
     font-weight: 750;
     font-size: 18px;
     line-height: 368%;
-    background: linear-gradient(90deg, #00AC27 0%, #00FEC4 131.82%);
+    background-image: linear-gradient(90deg, #00AC27 0%, #00FEC4 131.82%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
      background-clip: text;
-     text-fill-color: transparent;
      text-align: left;
-* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+     margin: 20px;
+     flex: none;
+     border: 0;
+     flex-grow: 0;
 }
-
-
 .card-text{
 
     font-family: 'Givonic-1',sans-serif;
@@ -200,8 +177,6 @@ li.Ellipse{
     font-style: normal;
     font-weight: 100;
     text-align: left;
-
-
 }
 
 .text-title-2{
@@ -235,7 +210,7 @@ li.Ellipse{
     color: #ffffff;
     padding: 10px;
     margin: auto;
-    font-size: calc(1em + 1vw)
+    font-size: calc(1em + 1vw);
     font-weight: normal;
     text-align: center;
 
@@ -263,7 +238,7 @@ li.Ellipse{
 
 .btn-secondary-2{
     background: linear-gradient(180deg, #ffffff 0%, #cff0d7 100%);
-    color:#40c15d !important;
+    color:var(--color-titulos) !important;
     font-family: 'Givonic-1',sans-serif;
     font-size: 15px;
     border: 1px solid #73837e !important;
@@ -302,14 +277,11 @@ opacity: 0.5;
     content: '';
 }
 */
-.container-p {
+/*.container-p {
    height: 500px;
     width: auto;
     background: black;
     overflow: hidden;
-
-
-
 
 background: linear-gradient(90deg, rgba(77,171,75,1) 0%, rgba(77,171,75,0.6166841736694677) 0%, rgba(77,171,75,1) 100%),url("../images/sujeto2.png");
 background: rgb(77,171,75),url("../images/sujeto2.png"); 
@@ -319,7 +291,72 @@ background: rgb(77,171,75),url("../images/sujeto2.png");
 
 img {
    object-fit: cover;
-}
+}*/
 
+/*PRUEBA DE OPACIDAD*/
+.banner {
+    width: 100%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+        border: 1px solid #fff;
+    box-shadow: 0 5px 5px -5px #000;
+    background:  url("../images/sujeto_Bg.png");
+   position: relative; 
+}
+    .banner:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: url("../images/team1.jpg") center/cover;
+      opacity: 0.5; 
+    }
+      .banner__title, .banner__subtitle {
+        margin: 0;
+        
+        color: #ffffff;
+        text-align: center;
+        position: relative;
+     }
+      .banner__title {
+        font-size: 2em;
+        font-family: 'Givonic-1', 'sans-serif';
+        font-weight: 200; 
+    }
+      .banner__subtitle {
+        font-size: 1em;
+        letter-spacing: 0.1em;
+        font-family: 'Givonic-1', 'sans-serif';
+     }
+     .btn-secondary-2{
+        margin: 0;
+        color: #fff;
+        text-align: center;
+        position: relative;
+     }
+   .text-reset{
+    
+        font-family: 'Givonic';
+        color:whitesmoke;
+        font-size: 12px;
+        text-decoration: none;
+        margin: auto;
+        padding:0 20px;
+    
+    }
+
+     .bg-footer{
+        background: #230066;
+        border-radius: 40px 40px 0px 0px;
+     }
 
 
